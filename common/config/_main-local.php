@@ -4,8 +4,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=igri.mysql.tools;dbname=igri_garmyder',
-            'username' => 'igri_garmyder',
-            'password' => '9DV+c4up1^',
+            'username' => '',
+            'password' => '',
             'charset' => 'utf8',
         ],
         'mailer' => [

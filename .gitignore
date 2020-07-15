@@ -3,6 +3,10 @@
 /yii_test
 /yii_test.bat
 
+/common/config/main-local.php
+/common/config/params-local.php
+/common/config/test-local.php
+
 # phpstorm project files
 .idea
 
@@ -18,10 +22,10 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-/vendor
+#/vendor
 
 # composer itself is not needed
-composer.phar
+#composer.phar
 
 # Mac DS_Store Files
 .DS_Store
