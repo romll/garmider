@@ -54,6 +54,13 @@ return [
             ],
 
         ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@Da/User/resources/views' => '@frontend/views/user'
+                ]
+            ]
+        ],
     ],
     //'defaultRoute' => 'blog', //set blog as default route
     'modules' => [
