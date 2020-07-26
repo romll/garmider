@@ -96,7 +96,7 @@ return [
                 }
             ],*/
             'classMap' => [
-                'RegistrationForm' => 'app\frontend\form\RegistrationForm'
+                'RegistrationForm' => 'frontend\form\RegistrationForm',
             ],
             'controllerMap' => [
                 'admin' => [
