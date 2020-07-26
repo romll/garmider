@@ -88,6 +88,9 @@ return [
                     return [Yii::$app->params['supportEmail'] => Yii::t('app', '{0} robot', Yii::$app->name)];
                 }
             ],*/
+            'classMap' => [
+                'RegistrationForm' => 'app\frontend\form\RegistrationForm'
+            ],
             'controllerMap' => [
                 'admin' => [
                     'class' => Da\User\Controller\AdminController::class,
