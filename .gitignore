@@ -7,6 +7,14 @@
 /common/config/params-local.php
 /common/config/test-local.php
 
+/backend/config/main-local.php
+/backend/config/params-local.php
+/backend/config/test-local.php
+
+/frontend/config/main-local.php
+/frontend/config/params-local.php
+/frontend/config/test-local.php
+
 # phpstorm project files
 .idea
 
