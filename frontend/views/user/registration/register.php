@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'reCaptcha')->widget(
                     \himiklab\yii2\recaptcha\ReCaptcha3::className(),
                     [
-                        'action' => 'homepage',
+                        'action' => 'register',
                     ]
                 ) ?>
 

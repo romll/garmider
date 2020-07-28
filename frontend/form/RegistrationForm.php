@@ -12,7 +12,7 @@ class RegistrationForm extends BaseForm {
             return [
                 [['reCaptcha'], \himiklab\yii2\recaptcha\ReCaptchaValidator3::className(),
                     'threshold' => 0.5,
-                    'action' => 'homepage',
+                    'action' => 'register',
                 ],
             ];
         }
